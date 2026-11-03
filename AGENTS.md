@@ -15,6 +15,8 @@ Instructions for an AI agent working in this repo: a Rails app for learning how 
   - `code-along-complete/` (a learning reference only)
   - `app/controllers/data_controller.rb`, `app/models/database_table.rb`, `app/views/data/` (for data visibility only)
 
+  - after changing any code, run the tests and report the result before saying youre done.
+
 ## Commands
 
 - `bin/rails server` runs the app

@@ -1,0 +1,16 @@
+<h1>Bitcoins:</h1>
+
+<% if params["amount"].present? %>
+  <p>You have <%= @bitcoin %> Bitcoin.</p>
+  <p>Your bitcoin is worth $<%= @usd_value %></p>
+<% else %>
+  <p>How many bitcoin do you have?</p>
+<% end %>
+
+<form action="/bitcoins">
+  <label for="amount">My bitcoin:</label>
+  <input type="text" id="amount" name="amount">
+  <button>Submit</button>
+</form>
+
+<a href="https://google.com">Google</a>
